@@ -99,11 +99,11 @@ const indexTempl = `<!-- HTML for static distribution bundle build -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Swagger UI</title>
+  <title>Documentation</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
-  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/logo512.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/logo192.png" sizes="16x16" />
   <style>
     html
     {
@@ -122,6 +122,8 @@ const indexTempl = `<!-- HTML for static distribution bundle build -->
       margin:0;
       background: #fafafa;
     }
+
+    .topbar { display: none; }
   </style>
 </head>
 
