@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"regexp"
 
-	swaggerFiles "github.com/swaggo/files"
+	swaggerFiles "github.com/floreabogdan/swaggo-files"
 	"github.com/swaggo/swag"
 )
 
